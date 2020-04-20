@@ -1,0 +1,37 @@
+# Code written in python, 
+# Attempting to understand data manipulation using the NumPy python library
+# Will present code in snippits to show easy progression of learning the library
+
+# Progression 1 Start
+import numpy as np  # import the NumPy library
+
+# Initializing a NumPy array
+arr = np.array([-1, 2, 5], dtype=np.float32)
+
+# Print the representation of the array
+print(repr(arr))
+# Progression 1 End 
+
+
+# Progression 2 Start 
+import numpy as np      # Import numpy library
+
+#np.array allows for easy conversion of a list in python to a numpy array
+arr = np.array([[0, 1, 2], [3, 4, 5]],    
+               dtype=np.float32)
+# dtype argurment allows for the list to be casted to a specific type 
+print(repr(arr))
+# this Code allows for the creation of a 2D matrix 
+# Progression 2 End 
+
+# use the .copy() to create a direct copy of an array for presevation of oringial array
+# astype(np.type) allows an array to be casted into a new time 
+# dtype allows for the arrays type to be printed 
+# np.nan is usually used as a data filler for missing entries, this can't take an integer type 
+# np.inf is used to represent infinity also cannot be casted as an integer type will return an overflow error 
+
+# Progression 3 Start 
+# Write a list with the first element as nan, and from 2-5 using np 
+import numpy as np
+arr = np.array([np.nan,2,3,4,5])
+# Progression 3 End
